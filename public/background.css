@@ -1,34 +1,33 @@
-html, body {
-	height: 100%;
-}
-
-.height-max {
-	height: 100%;
-}
-
-.main-body {
-	height: 100%;
-}
-
-.body-col {
-	background-color: #ebe8e8;
+body {
+	background-color: #6a696e;
 }
 
 
-.flex-container {
-	justify-content: center;
-	padding: 100px;
+.screen {
+	min-height: 800px;
+	max-height: 800px;
+	padding: 20px;
 	display: flex;
-	height: 70%;
+	justify-content: center;
+	align-items: center;
 }
 
-.array-color {
-	background-color: blue;
-	margin-left: 3px;
-	width: 10px;
-	height: 100%;
+.main-screen {
+	min-height: 800px;
+	max-height: 800px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.array-color2 {
-	background-color: yellow;
+.bars {
+	width: 100px;
+	background-color: white;
+	margin-left: 4px;
+}
+
+.innerbars {
+	width: 100%;
+	background-color: #6a696e;
 }
