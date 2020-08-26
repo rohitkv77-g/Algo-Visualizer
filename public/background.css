@@ -1,0 +1,34 @@
+html, body {
+	height: 100%;
+}
+
+.height-max {
+	height: 100%;
+}
+
+.main-body {
+	height: 100%;
+}
+
+.body-col {
+	background-color: #ebe8e8;
+}
+
+
+.flex-container {
+	justify-content: center;
+	padding: 100px;
+	display: flex;
+	height: 70%;
+}
+
+.array-color {
+	background-color: blue;
+	margin-left: 3px;
+	width: 10px;
+	height: 100%;
+}
+
+.array-color2 {
+	background-color: yellow;
+}
